@@ -1,12 +1,12 @@
 <?php
 
-namespace GustavoMarkez23\BuscadorCursos;
+namespace Gustavo\PhpComposerBuscadorCursos;
 
 use GuzzleHttp\Client;
 use Psr\Http\Client\ClientInterface;
 use Symfony\Component\DomCrawler\Crawler;
 
-class BuscadorCurso
+class BuscadorCursos
 {
   private Client $httpClient;
   private Crawler $crawler;
