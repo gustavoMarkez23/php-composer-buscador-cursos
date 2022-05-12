@@ -1,0 +1,17 @@
+{
+  "name": "gustavo-markez23/php-composer-buscador-cursos",
+  "description": "Projeto que busca cursos no site da alura",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "GustavoMarkez23\\PhpComposerBuscadorCursos\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Gustavo Marques",
+      "email": "gustavo.markez23@gmail.com"
+    }
+  ],
+  "require": {}
+}
