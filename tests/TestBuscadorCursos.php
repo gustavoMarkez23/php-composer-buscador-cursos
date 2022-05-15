@@ -4,7 +4,6 @@ namespace Gustavo\PhpComposerBuscadorCursos\Tests;
 
 use Gustavo\PhpComposerBuscadorCursos\BuscadorCursos;
 use GuzzleHttp\ClientInterface;
-use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;

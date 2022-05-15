@@ -8,8 +8,14 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class BuscadorCursos
 {
-  private Client $httpClient;
-  private Crawler $crawler;
+  /**
+   * @var ClientInterface
+   */
+  private $httpClient;
+  /**
+   * @var Crawler
+   */
+  private $crawler;
   public function __construct(ClientInterface $httpClient, Crawler $crawler)
   {
     $this->httpClient = $httpClient;
@@ -19,7 +25,7 @@ class BuscadorCursos
   public function buscar(string $url): array
   {
     $cursos = [];
-    
+
     $response = $this->httpClient->request('GET', $url);
     $html = $response->getBody();
     $this->crawler->addHtmlContent($html);
