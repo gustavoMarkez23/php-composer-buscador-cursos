@@ -31,7 +31,7 @@ class BuscadorCursos
     $this->crawler->addHtmlContent($html);
     $elemets = $this->crawler->filter('span.card-curso__nome');
     foreach ($elemets as $el) {
-      $cursos[] = $el;
+      $cursos[] = $el->textContent;
     }
 
     return $cursos;
