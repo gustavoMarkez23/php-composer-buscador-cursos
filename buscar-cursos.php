@@ -5,7 +5,7 @@ use GustavoMarkez23\PhpComposerBuscadorCursos\BuscadorCursos;
 use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
 
-require_once __DIR__ . '/vendor/autoload.php';
+require './vendor/autoload.php';
 
 $client = new Client(
   [
