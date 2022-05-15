@@ -1,10 +1,10 @@
 {
-  "name": "gustavo/php-composer-buscador-cursos",
+  "name": "gustavo-markez23/php-composer-buscador-cursos",
   "description": "Projeto que busca cursos no site da alura",
   "type": "library",
   "autoload": {
     "psr-4": {
-      "Gustavo\\PhpComposerBuscadorCursos\\": "src/"
+      "GustavoMarkez23\\PhpComposerBuscadorCursos\\": "src/"
     },
     "classmap": [],
     "files": ["./functions.php"]

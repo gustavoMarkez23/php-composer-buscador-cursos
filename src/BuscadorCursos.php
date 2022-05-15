@@ -1,6 +1,6 @@
 <?php
 
-namespace Gustavo\PhpComposerBuscadorCursos;
+namespace GustavoMarkez23\PhpComposerBuscadorCursos;
 
 use GuzzleHttp\Client;
 use Psr\Http\Client\ClientInterface;

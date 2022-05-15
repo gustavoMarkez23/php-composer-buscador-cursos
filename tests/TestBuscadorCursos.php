@@ -1,8 +1,8 @@
 <?php 
 
-namespace Gustavo\PhpComposerBuscadorCursos\Tests;
+namespace GustavoMarkez23\PhpComposerBuscadorCursos\Tests;
 
-use Gustavo\PhpComposerBuscadorCursos\BuscadorCursos;
+use GustavoMarkez23\PhpComposerBuscadorCursos\BuscadorCursos;
 use GuzzleHttp\ClientInterface;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ResponseInterface;

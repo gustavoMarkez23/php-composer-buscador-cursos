@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-use Gustavo\PhpComposerBuscadorCursos\BuscadorCursos;
+use GustavoMarkez23\PhpComposerBuscadorCursos\BuscadorCursos;
 use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
 
